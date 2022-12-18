@@ -1,0 +1,54 @@
+.icon-container {
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+.icon-container:hover {
+    color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-card {
+    height: 70vh !important;
+    margin: 10px;
+}
+
+.card-image {
+    height: 50vh;
+    width: max-content !important;
+    max-width: 100%;
+}
+
+.products-container {
+    background-color: #F8F9FA;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.original-price {
+    padding-right: 3px;
+}
+
+.discount-container {
+    position: absolute;
+    padding: 3px;
+    background: red;
+    border-radius: 8px;
+    top: 5px;
+    left: 5px;
+}
+
+.discount-amount {
+    color: white;
+}
